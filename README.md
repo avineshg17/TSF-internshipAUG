@@ -9,7 +9,7 @@ You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for A
 # Project Structure
 This project has four major parts :
 
-1.model.py - This contains code fot our Machine Learning model to predict Marks based on data in 'Student_Scores.csv' file.
+1.model.py - This contains code fot our Machine Learning model to predict Marks based on data in 'Student_Scores.csv' file.\n
 2.app.py - This contains Flask APIs that receives  through GUI or API calls, computes the precited value based on our model and returns it.
 3.request.py - This uses requests module to call APIs already defined in app.py and dispalys the returned value.
 4.templates - This folder contains the HTML template to allow user to enter Hours detail and displays the predicted Marks.
@@ -28,3 +28,7 @@ You should be able to view the homepage as below : alt text
 Enter valid numerical values in input box and hit Predict.
 
 If everything goes well, you should be able to see the predcited Marks vaule on the HTML page! alt text
+
+
+# Determining Number Of Clusters(TASK 3)
+
